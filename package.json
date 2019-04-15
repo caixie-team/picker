@@ -1,0 +1,28 @@
+{
+  "name": "picker",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@types/graphql": "^14.2.0",
+    "@types/klaw-sync": "^6.0.0",
+    "@types/node": "^11.13.4",
+    "concurrently": "^4.1.0",
+    "graphql": "^14.2.1",
+    "graphql-code-generator": "^0.18.0",
+    "graphql-codegen-add": "^0.18.0",
+    "graphql-codegen-time": "^0.18.0",
+    "graphql-codegen-typescript-client": "^0.18.0",
+    "graphql-codegen-typescript-common": "^0.18.0",
+    "graphql-codegen-typescript-server": "^0.18.0",
+    "graphql-tools": "^4.0.4",
+    "jest": "^24.7.1",
+    "lerna": "^3.13.2",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.17.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.3"
+  },
+  "workspaces": ["packages/*"]
+}

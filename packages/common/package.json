@@ -1,0 +1,25 @@
+{
+  "name": "@picker/common",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "Baisheng <baisheng@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc -p ./tsconfig.build.json"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.11",
+    "typescript": "^3.4.3"
+  }
+}
